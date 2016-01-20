@@ -40,8 +40,7 @@ class ArtistPipeline(object):
             top.url = item['url']
             top.img = item['img']
             top.rank = item['rank']
-            if not top in session:
-                self.session.add(top)
+            self.session.add(top)
         elif spider.name == 'Film':
             film = Film()
             self.fid += 1
