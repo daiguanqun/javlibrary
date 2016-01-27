@@ -3,6 +3,7 @@ import string
 import logging
 from javlibrary.artistitem import ArtistItem
 from javlibrary.filmitem import FilmItem
+from javlibrary.genreitem import GenreItem
 from javlibrary.db import db
 from javlibrary.db.artist import Artist
 
@@ -38,6 +39,21 @@ class TopArtistSpider(scrapy.Spider):
             artistItem['img'] = artist.css('img::attr("src")').extract()[0].encode('utf-8')
             artistItem['rank'] = int(artist.re('#(\d+) ')[0].encode('utf-8'))
             yield artistItem
+
+class GenreSpider(scrapy.Spider):
+    name = 'Genre'
+    allowed_domian = ['javlibrary.com']
+    start_urls = [
+            'http://www.javlibrary.com/cn/genres.php'
+            ]
+
+    def parse(self, response):
+        for genre in response.xpath('//div[@class="genreitem"]'):
+            genreItem = GenreItem()
+            genreItem['name'] = genre.xpath('a/text()').extract()[0].encode('utf-8')
+            genreItem['url'] = genre.css('a::attr("href")').extract()[0].encode('utf-8')
+            yield genreItem
+
 
 class FilmSpider(scrapy.Spider):
     name = 'Film'

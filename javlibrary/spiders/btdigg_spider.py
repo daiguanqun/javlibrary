@@ -9,7 +9,7 @@ class MagnetSpider(scrapy.Spider):
     allowed_domian = ['btdigg.org']
     base_url = 'http://btdigg.org/search?info_hash=&q='
     session = db.getsession()
-    start_urls = [ base_url + result.tag for result in session.query(Film.tag) ][0:1]
+    start_urls = [ base_url + result.tag for result in session.query(Film.tag) ]
     session.close()
 
     def parse(self, response):

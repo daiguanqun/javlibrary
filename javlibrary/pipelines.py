@@ -6,6 +6,8 @@ from db.topartist import TopArtist
 from db.film import Film
 from db.cast import Cast
 from db.magnet import Magnet
+from db.genre import Genre
+from db.category import Category
 
 class JavlibraryPipeline(object):
     def process_item(self, item, spider):
@@ -64,6 +66,18 @@ class ArtistPipeline(object):
                         c.aid = a.aid
                         c.fid = film.fid
                         self.session.add(c)
+                for name in item['category']:
+                    g = self.session.query(Genre.gid).filter(Genre.genre_name == name).first()
+                    if g != None:
+                        c = Category()
+                        c.fid = film.fid
+                        c.gid = g.gid
+                        self.session.add(c)
+        elif spider.name == 'Genre':
+            genre = Genre()
+            genre.genre_name = item['name']
+            genre.url = item['url']
+            self.session.add(genre)
         elif spider.name == 'Magnet':
             magnet = Magnet()
             magnet.magnet_uri = item['magnet']

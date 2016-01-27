@@ -1,0 +1,171 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Artist	db/artist.py	/^class Artist(object):$/;"	c
+Artist	pipelines.py	/^from db.artist import Artist$/;"	i
+Artist	spiders/javlibrary_spider.py	/^from javlibrary.db.artist import Artist$/;"	i
+ArtistItem	artistitem.py	/^class ArtistItem(scrapy.Item):$/;"	c
+ArtistItem	spiders/javlibrary_spider.py	/^from javlibrary.artistitem import ArtistItem$/;"	i
+ArtistPipeline	pipelines.py	/^class ArtistPipeline(object):$/;"	c
+ArtistSpider	spiders/javlibrary_spider.py	/^class ArtistSpider(scrapy.Spider):$/;"	c
+BIGINT	db/db.py	/^    TINYBLOB, TINYINT, TINYTEXT, VARBINARY, VARCHAR, YEAR$/;"	i
+BINARY	db/db.py	/^    TINYBLOB, TINYINT, TINYTEXT, VARBINARY, VARCHAR, YEAR$/;"	i
+BIT	db/db.py	/^    TINYBLOB, TINYINT, TINYTEXT, VARBINARY, VARCHAR, YEAR$/;"	i
+BLOB	db/db.py	/^    TINYBLOB, TINYINT, TINYTEXT, VARBINARY, VARCHAR, YEAR$/;"	i
+BOOLEAN	db/db.py	/^    TINYBLOB, TINYINT, TINYTEXT, VARBINARY, VARCHAR, YEAR$/;"	i
+BOT_NAME	settings.py	/^BOT_NAME = 'javlibrary'$/;"	v
+CHAR	db/db.py	/^    TINYBLOB, TINYINT, TINYTEXT, VARBINARY, VARCHAR, YEAR$/;"	i
+Cast	db/cast.py	/^class Cast(object):$/;"	c
+Cast	pipelines.py	/^from db.cast import Cast$/;"	i
+Category	db/category.py	/^class Category(object):$/;"	c
+Category	pipelines.py	/^from db.category import Category$/;"	i
+Column	db/db.py	/^from sqlalchemy import create_engine, Table, Column, Integer, String, MetaData$/;"	i
+DATE	db/db.py	/^    TINYBLOB, TINYINT, TINYTEXT, VARBINARY, VARCHAR, YEAR$/;"	i
+DATETIME	db/db.py	/^    TINYBLOB, TINYINT, TINYTEXT, VARBINARY, VARCHAR, YEAR$/;"	i
+DECIMAL	db/db.py	/^    TINYBLOB, TINYINT, TINYTEXT, VARBINARY, VARCHAR, YEAR$/;"	i
+DOUBLE	db/db.py	/^    TINYBLOB, TINYINT, TINYTEXT, VARBINARY, VARCHAR, YEAR$/;"	i
+DOWNLOADER_MIDDLEWARES	settings.py	/^DOWNLOADER_MIDDLEWARES = {$/;"	v
+ENUM	db/db.py	/^    TINYBLOB, TINYINT, TINYTEXT, VARBINARY, VARCHAR, YEAR$/;"	i
+FLOAT	db/db.py	/^    TINYBLOB, TINYINT, TINYTEXT, VARBINARY, VARCHAR, YEAR$/;"	i
+Film	db/film.py	/^class Film(object):$/;"	c
+Film	pipelines.py	/^from db.film import Film$/;"	i
+Film	spiders/btdigg_spider.py	/^from javlibrary.db.film import Film$/;"	i
+FilmItem	filmitem.py	/^class FilmItem(scrapy.Item):$/;"	c
+FilmItem	spiders/javlibrary_spider.py	/^from javlibrary.filmitem import FilmItem$/;"	i
+FilmSpider	spiders/javlibrary_spider.py	/^class FilmSpider(scrapy.Spider):$/;"	c
+Genre	db/genre.py	/^class Genre(object):$/;"	c
+Genre	pipelines.py	/^from db.genre import Genre$/;"	i
+GenreItem	genreitem.py	/^class GenreItem(scrapy.Item):$/;"	c
+GenreItem	spiders/javlibrary_spider.py	/^from javlibrary.genreitem import GenreItem$/;"	i
+GenreSpider	spiders/javlibrary_spider.py	/^class GenreSpider(scrapy.Spider):$/;"	c
+INTEGER	db/db.py	/^    TINYBLOB, TINYINT, TINYTEXT, VARBINARY, VARCHAR, YEAR$/;"	i
+ITEM_PIPELINES	settings.py	/^ITEM_PIPELINES = {$/;"	v
+Integer	db/db.py	/^from sqlalchemy import create_engine, Table, Column, Integer, String, MetaData$/;"	i
+JavlibraryItem	items.py	/^class JavlibraryItem(scrapy.Item):$/;"	c
+JavlibraryPipeline	pipelines.py	/^class JavlibraryPipeline(object):$/;"	c
+LONGBLOB	db/db.py	/^    TINYBLOB, TINYINT, TINYTEXT, VARBINARY, VARCHAR, YEAR$/;"	i
+LONGTEXT	db/db.py	/^    TINYBLOB, TINYINT, TINYTEXT, VARBINARY, VARCHAR, YEAR$/;"	i
+MEDIUMBLOB	db/db.py	/^    TINYBLOB, TINYINT, TINYTEXT, VARBINARY, VARCHAR, YEAR$/;"	i
+MEDIUMINT	db/db.py	/^    TINYBLOB, TINYINT, TINYTEXT, VARBINARY, VARCHAR, YEAR$/;"	i
+MEDIUMTEXT	db/db.py	/^    TINYBLOB, TINYINT, TINYTEXT, VARBINARY, VARCHAR, YEAR$/;"	i
+Magnet	db/magnet.py	/^class Magnet(object):$/;"	c
+Magnet	pipelines.py	/^from db.magnet import Magnet$/;"	i
+MagnetItem	magnetitem.py	/^class MagnetItem(scrapy.Item):$/;"	c
+MagnetItem	spiders/btdigg_spider.py	/^from javlibrary.magnetitem import MagnetItem$/;"	i
+MagnetSpider	spiders/btdigg_spider.py	/^class MagnetSpider(scrapy.Spider):$/;"	c
+MetaData	db/db.py	/^from sqlalchemy import create_engine, Table, Column, Integer, String, MetaData$/;"	i
+MultipleResultsFound	db/db.py	/^from sqlalchemy.orm.exc import MultipleResultsFound$/;"	i
+NCHAR	db/db.py	/^    TINYBLOB, TINYINT, TINYTEXT, VARBINARY, VARCHAR, YEAR$/;"	i
+NEWSPIDER_MODULE	settings.py	/^NEWSPIDER_MODULE = 'javlibrary.spiders'$/;"	v
+NUMERIC	db/db.py	/^    TINYBLOB, TINYINT, TINYTEXT, VARBINARY, VARCHAR, YEAR$/;"	i
+NVARCHAR	db/db.py	/^    TINYBLOB, TINYINT, TINYTEXT, VARBINARY, VARCHAR, YEAR$/;"	i
+NoResultFound	db/db.py	/^from sqlalchemy.orm.exc import NoResultFound$/;"	i
+ProxyMiddleware	middlewares.py	/^class ProxyMiddleware(object):$/;"	c
+REAL	db/db.py	/^    TINYBLOB, TINYINT, TINYTEXT, VARBINARY, VARCHAR, YEAR$/;"	i
+SET	db/db.py	/^    TINYBLOB, TINYINT, TINYTEXT, VARBINARY, VARCHAR, YEAR$/;"	i
+SMALLINT	db/db.py	/^    TINYBLOB, TINYINT, TINYTEXT, VARBINARY, VARCHAR, YEAR$/;"	i
+SPIDER_MODULES	settings.py	/^SPIDER_MODULES = ['javlibrary.spiders']$/;"	v
+String	db/db.py	/^from sqlalchemy import create_engine, Table, Column, Integer, String, MetaData$/;"	i
+TEXT	db/db.py	/^    TINYBLOB, TINYINT, TINYTEXT, VARBINARY, VARCHAR, YEAR$/;"	i
+TIME	db/db.py	/^    TINYBLOB, TINYINT, TINYTEXT, VARBINARY, VARCHAR, YEAR$/;"	i
+TIMESTAMP	db/db.py	/^    TINYBLOB, TINYINT, TINYTEXT, VARBINARY, VARCHAR, YEAR$/;"	i
+TINYBLOB	db/db.py	/^    TINYBLOB, TINYINT, TINYTEXT, VARBINARY, VARCHAR, YEAR$/;"	i
+TINYINT	db/db.py	/^    TINYBLOB, TINYINT, TINYTEXT, VARBINARY, VARCHAR, YEAR$/;"	i
+TINYTEXT	db/db.py	/^    TINYBLOB, TINYINT, TINYTEXT, VARBINARY, VARCHAR, YEAR$/;"	i
+Table	db/db.py	/^from sqlalchemy import create_engine, Table, Column, Integer, String, MetaData$/;"	i
+TopArtist	db/topartist.py	/^class TopArtist(object):$/;"	c
+TopArtist	pipelines.py	/^from db.topartist import TopArtist$/;"	i
+TopArtistSpider	spiders/javlibrary_spider.py	/^class TopArtistSpider(scrapy.Spider):$/;"	c
+USER_AGENT	settings.py	/^USER_AGENT = 'Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit\/536.5 (KHTML, like Gecko) Chrome\/19.0.1084.54 Safari\/536.5'$/;"	v
+VARBINARY	db/db.py	/^    TINYBLOB, TINYINT, TINYTEXT, VARBINARY, VARCHAR, YEAR$/;"	i
+VARCHAR	db/db.py	/^    TINYBLOB, TINYINT, TINYTEXT, VARBINARY, VARCHAR, YEAR$/;"	i
+YEAR	db/db.py	/^    TINYBLOB, TINYINT, TINYTEXT, VARBINARY, VARCHAR, YEAR$/;"	i
+aid	pipelines.py	/^    aid = 1$/;"	v	class:ArtistPipeline
+allowed_domian	spiders/btdigg_spider.py	/^    allowed_domian = ['btdigg.org']$/;"	v	class:MagnetSpider
+allowed_domian	spiders/javlibrary_spider.py	/^    allowed_domian = ['javlibrary.com']$/;"	v	class:ArtistSpider
+allowed_domian	spiders/javlibrary_spider.py	/^    allowed_domian = ['javlibrary.com']$/;"	v	class:FilmSpider
+allowed_domian	spiders/javlibrary_spider.py	/^    allowed_domian = ['javlibrary.com']$/;"	v	class:GenreSpider
+allowed_domian	spiders/javlibrary_spider.py	/^    allowed_domian = ['javlibrary.com']$/;"	v	class:TopArtistSpider
+artistTable	db/artist.py	/^artistTable = db.Table($/;"	v
+base_url	spiders/javlibrary_spider.py	/^    base_url = 'http:\/\/www.javlibrary.com\/cn\/'$/;"	v	class:FilmSpider
+base_url	spiders/javlibrary_spider.py	/^    base_url = 'http:\/\/www.javlibrary.com\/cn\/star_list.php'$/;"	v	class:ArtistSpider
+cast	filmitem.py	/^    cast = scrapy.Field()$/;"	v	class:FilmItem
+castTable	db/cast.py	/^castTable = db.Table($/;"	v
+category	filmitem.py	/^    category = scrapy.Field()$/;"	v	class:FilmItem
+categoryTable	db/category.py	/^categoryTable = db.Table($/;"	v
+close_spider	pipelines.py	/^    def close_spider(self, spider):$/;"	m	class:ArtistPipeline
+cover	filmitem.py	/^    cover = scrapy.Field()$/;"	v	class:FilmItem
+create_engine	db/db.py	/^from sqlalchemy import create_engine, Table, Column, Integer, String, MetaData$/;"	i
+date	filmitem.py	/^    date = scrapy.Field()$/;"	v	class:FilmItem
+db	db/artist.py	/^import db$/;"	i
+db	db/cast.py	/^import db$/;"	i
+db	db/category.py	/^import db$/;"	i
+db	db/film.py	/^import db$/;"	i
+db	db/genre.py	/^import db$/;"	i
+db	db/magnet.py	/^import db$/;"	i
+db	db/topartist.py	/^import db$/;"	i
+db	pipelines.py	/^from db import db$/;"	i
+db	spiders/btdigg_spider.py	/^from javlibrary.db import db$/;"	i
+db	spiders/javlibrary_spider.py	/^from javlibrary.db import db$/;"	i
+director	filmitem.py	/^    director = scrapy.Field()$/;"	v	class:FilmItem
+fid	pipelines.py	/^    fid = 0$/;"	v	class:ArtistPipeline
+filmTable	db/film.py	/^filmTable = db.Table($/;"	v
+genreTable	db/genre.py	/^genreTable = db.Table($/;"	v
+getsession	db/db.py	/^def getsession():$/;"	f
+getstring	spiders/javlibrary_spider.py	/^    def getstring(self, selector):$/;"	m	class:FilmSpider
+id	filmitem.py	/^    id = scrapy.Field()$/;"	v	class:FilmItem
+img	artistitem.py	/^    img = scrapy.Field()$/;"	v	class:ArtistItem
+length	filmitem.py	/^    length = scrapy.Field()$/;"	v	class:FilmItem
+logging	spiders/javlibrary_spider.py	/^import logging$/;"	i
+magnet	magnetitem.py	/^    magnet = scrapy.Field()$/;"	v	class:MagnetItem
+magnetTable	db/magnet.py	/^magnetTable = db.Table($/;"	v
+maker	filmitem.py	/^    maker = scrapy.Field()$/;"	v	class:FilmItem
+mapper	db/db.py	/^from sqlalchemy.orm import mapper, sessionmaker$/;"	i
+metadata	db/db.py	/^metadata = MetaData()$/;"	v
+name	artistitem.py	/^    name = scrapy.Field()$/;"	v	class:ArtistItem
+name	filmitem.py	/^    name = scrapy.Field()$/;"	v	class:FilmItem
+name	genreitem.py	/^    name = scrapy.Field()$/;"	v	class:GenreItem
+name	spiders/btdigg_spider.py	/^    name = 'Magnet'$/;"	v	class:MagnetSpider
+name	spiders/javlibrary_spider.py	/^    name = 'Artist'$/;"	v	class:ArtistSpider
+name	spiders/javlibrary_spider.py	/^    name = 'Film'$/;"	v	class:FilmSpider
+name	spiders/javlibrary_spider.py	/^    name = 'Genre'$/;"	v	class:GenreSpider
+name	spiders/javlibrary_spider.py	/^    name = 'TopArtist'$/;"	v	class:TopArtistSpider
+open_spider	pipelines.py	/^    def open_spider(self, spider):$/;"	m	class:ArtistPipeline
+parse	spiders/btdigg_spider.py	/^    def parse(self, response):$/;"	m	class:MagnetSpider
+parse	spiders/javlibrary_spider.py	/^    def parse(self, response):$/;"	m	class:ArtistSpider
+parse	spiders/javlibrary_spider.py	/^    def parse(self, response):$/;"	m	class:FilmSpider
+parse	spiders/javlibrary_spider.py	/^    def parse(self, response):$/;"	m	class:GenreSpider
+parse	spiders/javlibrary_spider.py	/^    def parse(self, response):$/;"	m	class:TopArtistSpider
+parse_one_film	spiders/javlibrary_spider.py	/^    def parse_one_film(self, response):$/;"	m	class:FilmSpider
+process_item	pipelines.py	/^    def process_item(self, item, spider):$/;"	m	class:ArtistPipeline
+process_item	pipelines.py	/^    def process_item(self, item, spider):$/;"	m	class:JavlibraryPipeline
+process_request	middlewares.py	/^    def process_request(self, request, spider):$/;"	m	class:ProxyMiddleware
+producer	filmitem.py	/^    producer = scrapy.Field()$/;"	v	class:FilmItem
+rank	artistitem.py	/^    rank = scrapy.Field()$/;"	v	class:ArtistItem
+score	filmitem.py	/^    score = scrapy.Field()$/;"	v	class:FilmItem
+scrapy	artistitem.py	/^import scrapy$/;"	i
+scrapy	filmitem.py	/^import scrapy$/;"	i
+scrapy	genreitem.py	/^import scrapy$/;"	i
+scrapy	items.py	/^import scrapy$/;"	i
+scrapy	magnetitem.py	/^import scrapy$/;"	i
+scrapy	pipelines.py	/^import scrapy$/;"	i
+scrapy	spiders/btdigg_spider.py	/^import scrapy$/;"	i
+scrapy	spiders/javlibrary_spider.py	/^import scrapy$/;"	i
+session	spiders/btdigg_spider.py	/^    session = db.getsession()$/;"	v	class:MagnetSpider
+session	spiders/javlibrary_spider.py	/^    session = db.getsession()$/;"	v	class:FilmSpider
+sessionmaker	db/db.py	/^from sqlalchemy.orm import mapper, sessionmaker$/;"	i
+stag	artistitem.py	/^    stag = scrapy.Field()$/;"	v	class:ArtistItem
+start_urls	spiders/btdigg_spider.py	/^    start_urls = [ base_url + result.tag for result in session.query(Film.tag) ][0:1]$/;"	v	class:MagnetSpider
+start_urls	spiders/javlibrary_spider.py	/^    start_urls = [ base_url + result.url for result in session.query(Artist.url) ]$/;"	v	class:FilmSpider
+start_urls	spiders/javlibrary_spider.py	/^    start_urls = [$/;"	v	class:GenreSpider
+start_urls	spiders/javlibrary_spider.py	/^    start_urls = [$/;"	v	class:TopArtistSpider
+string	spiders/javlibrary_spider.py	/^import string$/;"	i
+tag	magnetitem.py	/^    tag = scrapy.Field()$/;"	v	class:MagnetItem
+topArtistTable	db/topartist.py	/^topArtistTable = db.Table($/;"	v
+url	artistitem.py	/^    url = scrapy.Field()$/;"	v	class:ArtistItem
+url	filmitem.py	/^    url = scrapy.Field()$/;"	v	class:FilmItem
+url	genreitem.py	/^    url = scrapy.Field();$/;"	v	class:GenreItem
+urlparse	spiders/btdigg_spider.py	/^import urlparse$/;"	i
